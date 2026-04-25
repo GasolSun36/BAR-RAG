@@ -7,6 +7,16 @@
   <a href='https://arxiv.org/abs/2602.03689'>
     <img src='https://img.shields.io/badge/Paper-PDF-red'>
   </a>
+     </a>
+   <a href='https://huggingface.co/gasolsun/BAR-RAG-3B'>
+     <img src='https://img.shields.io/badge/%F0%9F%A4%97--BAR-RAG--3B-FFD21E.svg' alt='model'>
+   </a>
+   <a href='https://huggingface.co/gasolsun/BAR-RAG-7B'>
+     <img src='https://img.shields.io/badge/%F0%9F%A4%97--BAR-RAG--7B-FFD21E.svg' alt='model'>
+   </a>
+  <a href='https://huggingface.co/gasolsun/BAR-RAG-8B'>
+     <img src='https://img.shields.io/badge/%F0%9F%A4%97--BAR-RAG--8B-FFD21E.svg' alt='model'>
+   </a>
 </div>
 
 **BAR-RAG** reframes the reranker in RAG systems as a **boundary-aware evidence selector** that targets the generator's **Goldilocks Zone** — evidence that is neither trivially easy nor fundamentally unanswerable, but challenging yet sufficient for inference. By training the selector with reinforcement learning using generator feedback, and then fine-tuning the generator under the induced evidence distribution, BAR-RAG achieves an **average gain of 10.3%** over strong RAG and reranking baselines on knowledge-intensive QA benchmarks.
